@@ -1,6 +1,6 @@
 body {
   margin: 0;
-  background-color: #f7f8fa;
+  background-color: #c9d6d7;
   color: #263238;
   font-family: "Montserrat", sans-serif;
   line-height: 1.6;
@@ -12,7 +12,7 @@ nav {
   justify-content: space-between;
   align-items: center;
   padding: 16px 8%;
-  background-color: #17324d;
+  background-color: #085abd;
   color: #ffffff;
 }
 
@@ -45,7 +45,7 @@ header h1 {
 header img {
   width: 200px;
   height: 260px;
-  border: 5px solid #ffffff;
+  border: 5px solid #0d032e;
   border-radius: 50%;
   box-shadow: 0 5px 15px rgba(0, 0, 0, 0.2);
   object-fit: cover;
@@ -67,6 +67,11 @@ header img {
 }
 
 /************* Sections ********************/
+section {
+  width: 90%;
+  margin: 0 auto;
+}
+
 hr {
   width: 90%;
   margin: 30px auto;
